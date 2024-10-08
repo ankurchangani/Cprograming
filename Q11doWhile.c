@@ -6,6 +6,7 @@ int main ()
     do {
     printf("Enter a number: ");
     scanf("%lf", &number);
+
     sum += number;
   }
   while(number != 0.0);
@@ -13,5 +14,5 @@ int main ()
    printf("Sum = %.2lf",sum);
 
    return 0  ;
-
+    
 }
